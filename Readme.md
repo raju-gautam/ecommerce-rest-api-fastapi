@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 Create `.env` file:
 
-DATABASE_URL=mysql+pymysql://user:password@localhost:3306/ecommerce_db
+DATABASE_URL="mysql+pymysql://root:Raju%40123@localhost:3306/ecommerce_db"
 SECRET_KEY=your_secret_key
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=60
